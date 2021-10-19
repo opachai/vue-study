@@ -1,0 +1,45 @@
+■使うもの
+npm -v
+node -v
+vue --version
+git --version
+
+
+■プロジェクト生成
+vue create <プロジェクト名>
+cd <プロジェクト名>
+npm run serve
+npm run build
+
+
+■ローカル環境
+http://localhost:8080/
+http://192.168.2.111:8080/
+
+
+■構成
+/build	webpackなどのビルド実行のファイルが含まれる
+/config	ビルドの設定ファイルが含まれる
+/node_modules	各種モジュールが含まれる
+/src	ビルド前のソースコードフォルダ
+/src/assets	画像やCSS、その他javascriptなどの静的ファイルが含まれる
+/src/components	.vueの拡張子がついたコンポーネントファイルが含まれる
+/src/router	ルーティング用の設定ファイルが含まれる
+/src/App.vue	index.htmlに出力されるvue側のインデックスファイル
+/src/main.js	各種ファイルをインポートして管理するエントリーポイント用ファイル
+/static	ビルドに含めずにデプロイする用のファイルが含まれる
+/test	各種テストツールが含まれる
+/index.html	SPAでベースとなるインデックスファイル
+
+
+■git
+https://qiita.com/kohga/items/dccf135b0af395f69144
+
+
+■
+
+
+■
+
+
+■
