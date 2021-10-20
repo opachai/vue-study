@@ -7,6 +7,7 @@ git --version
 
 ■プロジェクト生成
 vue create <プロジェクト名>
+vue ui
 cd <プロジェクト名>
 npm run serve
 npm run build
