@@ -19,6 +19,18 @@ http://192.168.2.111:8080/
 
 
 ■構成
+vue.config.js	ルートのパスとか定義する
+/public/
+└index.html	SPAでベースとなるインデックスファイル
+/src/
+└App.vue	パンくずが書いてある router-viewの中身が切り替わる
+└main.js
+└/router/
+　└index.js	ページを追加したらこのファイルでパスを定義
+└/views/	配下にvueファイルを作成＝ページ作成
+└/components/	コンポーネンツ置き場
+└/assets/	画像置き場
+
 /build	webpackなどのビルド実行のファイルが含まれる
 /config	ビルドの設定ファイルが含まれる
 /node_modules	各種モジュールが含まれる
@@ -30,7 +42,6 @@ http://192.168.2.111:8080/
 /src/main.js	各種ファイルをインポートして管理するエントリーポイント用ファイル
 /static	ビルドに含めずにデプロイする用のファイルが含まれる
 /test	各種テストツールが含まれる
-/index.html	SPAでベースとなるインデックスファイル
 
 
 ■git
