@@ -50,7 +50,13 @@ vue.config.js	ルートのパスとか定義する
 
 
 ■git
-https://qiita.com/kohga/items/dccf135b0af395f69144
+git status
+git add .
+git commit -m 'comment'
+git push origin master
+
+
+
 
 
 ■
